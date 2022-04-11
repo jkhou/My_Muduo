@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mymuduo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hjk/Desktop/mymuduo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hjk/Desktop/mymuduo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hjk/Desktop/mymuduo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mymuduo">
+				<Option output="/home/hjk/Desktop/mymuduo/lib/libmymuduo.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hjk/Desktop/mymuduo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 mymuduo"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mymuduo/fast">
+				<Option output="/home/hjk/Desktop/mymuduo/lib/libmymuduo.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hjk/Desktop/mymuduo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 mymuduo/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Acceptor.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Acceptor.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Buffer.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Buffer.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Channel.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Channel.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/CurrentThread.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/CurrentThread.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/DefaultPoller.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/EPollPoller.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/EPollPoller.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/EventLoop.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/EventLoop.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/EventLoopThread.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/EventLoopThread.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/EventLoopThreadPool.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/EventLoopThreadPool.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/InetAddress.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/InetAddress.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Logger.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Logger.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Poller.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Poller.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Socket.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Socket.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/TcpConnection.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/TcpConnection.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/TcpServer.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/TcpServer.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Thread.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Thread.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Timestamp.cc">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/Timestamp.h">
+			<Option target="mymuduo"/>
+		</Unit>
+		<Unit filename="/home/hjk/Desktop/mymuduo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
